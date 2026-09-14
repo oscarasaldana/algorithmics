@@ -35,7 +35,6 @@ void solucion(int (*informacionDientes)[4], int (*informacionCitas)[3], int *dur
                 cumple = false;
                 break;
             }
-
         }
         if (cumple and gananciaTotal > gananciaMaxima) {
             gananciaMaxima = gananciaTotal;
